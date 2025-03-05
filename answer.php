@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit1-05-HTML-MDL -->
+<!-- ICS2O-Unit1-08-HTML-MDL -->
 <html lang="en-ca">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Website made by HTML, CSS and JS" />
+    <meta name="description" content="The XXX program, PHP" />
     <meta name="keywords" content="mths, icd2o" />
-    <meta name="author" content="Benjamin" />
+    <meta name="author" content="Mr. Coxall" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -34,37 +34,30 @@
       href="./favicon-16x16.png"
     />
     <link rel="manifest" href="./site.webmanifest" />
-    <title>Hello, World! with JS</title>
+    <title>My first website, PHP</title>
   </head>
 
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">My first website, JS</span>
+          <span class="mdl-layout-title">My first website, PHP</span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./Hello_World_Brian_Kernighan_1978.jpg" alt="Picture of the first Hello World" />
+          <img src="./Hello_World_Brian_Kernighan_1978.jpg" alt="Picutre of the First Hello World" />
         </div>
-        <div class="page-content">Click the button bellow</div>
-        <br />
-          <!-- Accent-colored raised button with ripple -->
-          <button
-            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="myButtonClicked()"
-            type="button"
-          >
-            Click here!
-          </button>
-        </form>
+        <div class="page-content">
+          <?php echo"Hello ,World!"; ?>
+        </div>
         <br />
         <div class="page-content-answer">
-          <div id="answer"></div>
+                  <a href="./index.php">Return...</a>
         </div>
+        </form>
+        <br />
       </main>
     </div>
   </body>
