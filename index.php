@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit1-08-HTML-MDL -->
+<!-- ICS2O-Unit2-01-HTML-MDL -->
 <html lang="en-ca">
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="The XXX program, PHP" />
     <meta name="keywords" content="mths, icd2o" />
-    <meta name="author" content="Mr. Coxall" />
+    <meta name="author" content="Benjamin Abebe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
